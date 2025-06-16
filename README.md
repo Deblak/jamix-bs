@@ -6,8 +6,8 @@ It's possible to deployed internally via a Jenkins job (not public)
 
 ### Color variables
 
-The main theme override is defined in `scss/custom.scss.  
-Color exemple:
+The main theme overrides are defined in scss/custom.scss.  
+Example:
 ```scss
 $primary: #5f50bf;
 $secondary: #9A53DE;
