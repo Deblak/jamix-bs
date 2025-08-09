@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Narrow:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Colors
+$primary: #5f50bf;
+$secondary: #9A53DE;
+$warning: #fdce47;
+$danger: #FD6B3F;
+$light: #f3f1f5;
+$dark: #09132c;
+
+// Button main
+$btn-padding-x: 1.5rem;
+$btn-border-radius: 18px;
+$btn-border-width: 2px;
+$btn-focus-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.150);
+
+// Font family
+$font-family-base: "Work Sans", sans-serif; // main
+$font-family-header: "PT Sans Narrow", sans-serif;
+$font-family-title: "Open Sans", sans-serif;
+$font-weight-body: 300;
+$font-weight-body-highlight: 600;
+$font-weight-title: 600;
+$font-weight-header: 600;
+

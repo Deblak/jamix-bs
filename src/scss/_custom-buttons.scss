@@ -1,0 +1,110 @@
+// Buttons jamix
+.btn-jm-light {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-dark);
+  --bs-btn-bg: #{$light};
+  --bs-btn-border-color: #{$light};
+  //hover
+  --bs-btn-hover-color: #{$dark};
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-border-color: #{$dark};
+  //active
+  --bs-btn-active-color: var(--bs-dark);
+  --bs-btn-active-bg: #{shade-color($light, 20%)};
+  --bs-btn-active-border-color: #{shade-color($light, 20%)};
+}
+.btn-jm-dark {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: #{$dark};
+  --bs-btn-border-color: #{$dark};
+  //hover
+  --bs-btn-hover-color: #{$dark};
+  --bs-btn-hover-bg: var(--bs-light);
+  --bs-btn-hover-border-color: #{$dark};
+  //active
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: #{shade-color($dark, 20%)};
+  --bs-btn-active-border-color: #{shade-color($dark, 20%)};
+}
+.btn-jm-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: #{$primary};
+  --bs-btn-border-color: #{$primary};
+  //hover
+  --bs-btn-hover-color: #{$primary};
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-border-color: #{$primary};
+  //active
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: #{shade-color($primary, 20%)};
+  --bs-btn-active-border-color: #{shade-color($primary, 20%)};
+}
+.btn-jm-secondary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: #{$secondary};
+  --bs-btn-border-color: #{$secondary};
+  //hover
+  --bs-btn-hover-color: #{$secondary};
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-border-color: #{$secondary};
+  //active
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: #{shade-color($secondary, 20%)};
+  --bs-btn-active-border-color: #{shade-color($secondary, 20%)};
+}
+.btn-jm-warning {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-dark);
+  --bs-btn-bg: #{$warning};
+  --bs-btn-border-color: #{$warning};
+  //hover
+  --bs-btn-hover-color: #{$dark};
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-border-color: #{$dark};
+  //active
+  --bs-btn-active-color: var(--bs-dark);
+  --bs-btn-active-bg: #{shade-color($warning, 20%)};
+  --bs-btn-active-border-color: #{shade-color($warning, 30%)};
+}
+.btn-jm-danger {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-dark);
+  --bs-btn-bg: #{$danger};
+  --bs-btn-border-color: #{$danger};
+  //hover
+  --bs-btn-hover-color: #E0340D;
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-border-color: #{$danger};
+  //active
+  --bs-btn-active-color: var(--bs-dark);
+  --bs-btn-active-bg: #{shade-color($danger, 20%)};
+  --bs-btn-active-border-color: #{shade-color($danger, 30%)};
+}
+
+.btn:focus {
+  box-shadow: $btn-focus-box-shadow;
+}
+
+//Input
+.custom-file-button {
+  input[type="file"] {
+    margin-left: -2px !important;
+
+    &::-webkit-file-upload-button {
+      display: none;
+    }
+    &::file-selector-button {
+      display: none;
+    }
+  }
+
+  &:hover {
+    label {
+      background-color: #dde0e3;
+      cursor: pointer;
+    }
+  }
+}

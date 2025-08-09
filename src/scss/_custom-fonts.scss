@@ -1,0 +1,35 @@
+// Font project
+body {
+  font-family: $font-family-base;
+  font-weight: $font-weight-body;
+}
+
+.header {
+  font-family: $font-family-header;
+  font-weight: $font-weight-header;
+}
+
+.title-1 {
+  font-family: $font-family-header;
+  font-weight: $font-weight-header;
+}
+
+.title-2 {
+  font-family: $font-family-title;
+  font-weight: $font-weight-title;
+}
+
+.txt-subtitle {
+  font-family: $font-family-base;
+  font-weight: $font-weight-body;
+}
+
+.txt-body {
+  font-family: $font-family-base;
+  font-weight: $font-weight-body;
+}
+
+.txt-body-highlight {
+  font-family: $font-family-base;
+  font-weight: $font-weight-body-highlight;
+}
