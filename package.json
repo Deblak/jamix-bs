@@ -6,13 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "sass --quiet --style=compressed src/scss/main.scss:dist/jamix-bootstrap.min.css",
-    "start": "npm run build-css"
+    "build-js": "rollup --config",
+    "start": "npm run build-js && npm run build-css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bootstrap": "^5.3.7"
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "bootstrap": "^5.3.7",
+    "rollup": "^4.48.0"
   }
 }
